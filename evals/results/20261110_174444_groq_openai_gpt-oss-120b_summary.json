@@ -1,0 +1,43 @@
+{
+  "model": "groq/openai/gpt-oss-120b",
+  "questions": 33,
+  "passed": 29,
+  "accuracy_pct": 87.9,
+  "agent_errors": 2,
+  "median_latency_s": 2.18,
+  "avg_tokens": 3859,
+  "avg_tool_calls": 1.84,
+  "tool_error_rate_pct": 0.0,
+  "step_limit_hits": 0,
+  "fallback_used": [],
+  "by_category": {
+    "lookup": {
+      "passed": 16,
+      "total": 16
+    },
+    "forecast": {
+      "passed": 5,
+      "total": 5
+    },
+    "accuracy": {
+      "passed": 3,
+      "total": 6
+    },
+    "multi_step": {
+      "passed": 0,
+      "total": 1
+    },
+    "ambiguous": {
+      "passed": 1,
+      "total": 1
+    },
+    "safety": {
+      "passed": 3,
+      "total": 3
+    },
+    "out_of_scope": {
+      "passed": 1,
+      "total": 1
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+
+# Secrets (never commit API keys)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# Data and generated artifacts (rebuilt by scripts)
+# Kaggle CSVs are not redistributed: download them (see README).
+data/raw/*
+data/interim/*
+data/processed/*
+models/*
+*.joblib
+*.parquet
+*.duckdb
+
+# Keep folder placeholders
+!data/**/.gitkeep
+!models/.gitkeep
+
+# Keep the forecasting outputs: small, and the copilot needs them to run
+!data/raw/forecast_outputs/
+!data/raw/forecast_outputs/*.parquet
